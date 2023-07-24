@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: hsl(204, 43%, 93%);
+    font-family: "karla";
+    font-size: 16px;
+    /* padding: 1.2rem; */
+    display: flex;
+    justify-content: center;
+    position: relative;
+
+    
+    
+
+}
+
+
+.container {
+    /* background-color: white; */
+    box-sizing: border-box;
+    justify-items: center;
+    align-items: center;
+    display: gd;
+    /* height: 40%; */
+    width: 50%;
+    /* margin: 100px; */
+    justify-content: center;
+    position: absolute;
+    transform: translate(0%, 35%);
+    top: 50%;
+    
+    
+    
+    
+    
+}
+
+
+.first{
+    box-sizing: border-box;
+    background-color: whitesmoke;
+    /* display: flex; */
+    padding: 2.2rem;
+    justify-items: center;
+    align-items: center;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+
+} 
+
+
+.join{
+    color: hsl(179, 62%, 43%);
+    font-family: inherit;
+    letter-spacing: 0.05em;
+
+}
+
+.promo{
+    color: hsl(71, 73%, 54%);
+}
+
+
+p{
+    font-family: "karla", inherit;
+    color: hsl(218, 22%, 67%);
+    font-weight: 400; 
+    
+}
+
+h3{
+    color: hsl(220, 9%, 87%);
+}
+
+
+section{
+    display: flex;
+    height: 15rem;
+    width: 100%;
+    
+    
+}
+
+.second{
+    background-color: hsl(179, 62%, 43%);
+    /* height: 50rem;*/
+    width: 100%; 
+    border-bottom-left-radius: 6px;
+    padding-top: 2rem;
+    padding-left: 2rem;
+    line-height: 2rem;
+    
+    
+}
+
+.rate{
+    color: aliceblue;
+    font-family: "karla", inherit;
+    font-weight: 400;
+    font-size: 2rem;
+    display: flex;
+    padding-top: 1rem;
+    padding-bottom: 0.5rem;
+    
+
+    
+}
+
+.monthly{
+    font-size: 1rem;
+    margin-left: 10px;
+    font-weight: normal;
+    color: hsl(223, 20%, 93%);
+    
+    
+}
+
+.ratee{
+    color: aliceblue;
+    font-weight: 100;
+}
+
+
+.click{
+    font-family: inherit;
+    cursor: pointer;
+    margin-top: 1rem;
+    border-radius: 6px;
+    padding: 14px 100px;
+    /* margin-left: 5px; */
+    background-color: hsl(71, 73%, 54%);
+    color: rgb(240, 236, 236);
+    border: none;
+    font-size: 16px;
+    
+}
+
+.click :hover{
+    background-color: hsl(71, 73%, 54%);
+    cursor: pointer;
+}
+
+.third{
+    background-color: hsl(179, 62%, 49%);
+    width: 100%;
+    border-bottom-right-radius: 6px;
+    padding: 2.2rem;
+}
+
+
+ul{
+    list-style-type: none;
+    color: #fff;
+    font-size: small;
+    font-weight: 100;
+    line-height: 1.2rem;
+}
+
+
+@media (max-width : 375px) {
+    body{
+        background-color: hsl(204, 43%, 93%);
+        height: 100%;
+    }
+    
+    .container{
+        width: 70%;
+        height: 100%;
+    }
+
+    .join {
+        font-size: medium;
+    
+    }
+    
+    .promo {
+        font-size: small;
+        
+    }
+    
+    
+    p {
+        font-size: small;
+
+        
+        
+    }
+
+    section{
+        display: grid;
+    }
+
+    .second{
+        border-bottom-left-radius: 0%;
+        padding: 1rem 2rem 2rem;
+    }
+
+    .click{
+        width: 100%;
+        padding: 4px 10px;
+        padding-bottom: 0.5rem;
+    }
+
+
+
+
+    
+
+
+    .third{
+        border-bottom-left-radius: 6px;
+        border-bottom-right-radius: 6px;
+    }
+
+
+}
+
+
+
+
+
+
+
